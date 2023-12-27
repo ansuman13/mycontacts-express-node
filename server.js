@@ -11,6 +11,3 @@ app.use("/api/contacts", require("./routes/contactRoutes"));
 app.listen(port, ()=> {
     console.log(`Server running on port ${port}`)
 })
-
-
-console.log("Hi, Hello World!!")
